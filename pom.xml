@@ -69,12 +69,12 @@
 		<snapshotRepository>
 			<id>local-nexus-snapshots</id>
 			<name>local Nexus Snapshots</name>
-			<url>http://data1.la:8081/repository/maven-snapshots/</url>
+			<url>http://nexus.data.la/repository/maven-snapshots/</url>
 		</snapshotRepository>
 		<repository>
-			<id>locat-nexus-release</id>
+			<id>local-nexus-release</id>
 			<name>Local Nexus Release Repository</name>
-			<url>http://data1.la:8081/repository/maven-releases/</url>
+			<url>http://nexus.data.la/repository/maven-releases/</url>
 		</repository>
 		<downloadUrl>https://oss.sonatype.org/content/groups/public/org/knowm/xchange</downloadUrl>
 	</distributionManagement>
@@ -179,7 +179,7 @@
 	<repositories>
 		<repository>
 			<id>local-sonatype-oss-public</id>
-			<url>http://data1.la:8081/repository/maven-public/</url>
+			<url>http://nexus.data.la/repository/maven-public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
